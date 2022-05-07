@@ -1,0 +1,47 @@
+Method overloading:
+ 	It refers to virtual polymorphism.
+ 	It is defined as a scenario where the programmer is 
+ under the illusion that 1 method is performing multiple 
+ tasks. But in reality there are multiple methods to 
+ to perform the task independently.
+ In Method overloading multiple methods :
+ 		-> can have same name 
+ 		-> can have same number of parameters
+ 		-> cannot have the same order of parameters
+ 	
+ 	
+As seen in the above code, the value for no_of_legs is common for all the objects of the dog.
+Creating memory for the same repeatedly is going lead to wastage of memory.
+Hence we declare it as static which makes the variable memory to be created only once and 
+change can also be done for this variable.
+
+Static Segment:
+	In programming community there is a very wrong presumption about the term static that any
+variable declared as static will not be changed once assigned but in reality static doesn't mean 
+constant.
+static refers to the memory for the variable being created only once during program execution.
+
+static is the keyword used to represent the static members
+
+Static segment will contain:
+-> static variable
+-> static block
+-> static methods
+
+when the compilation starts the "Class Loader" will get called and it scans the entire code for
+the static members
+If any static members are available within the code then it will load them on to the static seg.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
